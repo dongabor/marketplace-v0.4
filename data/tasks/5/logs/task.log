@@ -1,0 +1,21 @@
+[2021-10-30 16:34:13,314] INFO cvat.server.task_5: get repository request
+[2021-10-30 16:34:22,052] INFO cvat.server.task_5: General information(7) label was updated
+[2021-10-30 16:34:22,087] INFO cvat.server.task_5: city_research attribute for General information label was updated
+[2021-10-30 16:34:22,143] INFO cvat.server.task_5: counry_research attribute for General information label was updated
+[2021-10-30 16:34:22,151] INFO cvat.server.task_5: source_id attribute for General information label was updated
+[2021-10-30 16:34:22,158] INFO cvat.server.task_5: biopsy attribute for General information label was updated
+[2021-10-30 16:34:22,164] INFO cvat.server.task_5: contrast/noncontrast attribute for General information label was updated
+[2021-10-30 16:34:22,171] INFO cvat.server.task_5: distance_between_slices attribute for General information label was updated
+[2021-10-30 16:34:22,179] INFO cvat.server.task_5: number_slices attribute for General information label was updated
+[2021-10-30 16:34:22,187] INFO cvat.server.task_5: conclusion_pathologist attribute for General information label was updated
+[2021-10-30 16:34:22,193] INFO cvat.server.task_5: history_after_research attribute for General information label was updated
+[2021-10-30 16:34:22,199] INFO cvat.server.task_5: history_before_research attribute for General information label was updated
+[2021-10-30 16:34:22,204] INFO cvat.server.task_5: doctor_conclusion attribute for General information label was updated
+[2021-10-30 16:34:22,210] INFO cvat.server.task_5: patology attribute for General information label was updated
+[2021-10-30 16:34:22,216] INFO cvat.server.task_5: gender attribute for General information label was updated
+[2021-10-30 16:34:22,222] INFO cvat.server.task_5: localization attribute for General information label was updated
+[2021-10-30 16:34:22,228] INFO cvat.server.task_5: model_equipment attribute for General information label was updated
+[2021-10-30 16:34:22,234] INFO cvat.server.task_5: year_research attribute for General information label was updated
+[2021-10-30 16:34:22,240] INFO cvat.server.task_5: type_research attribute for General information label was updated
+[2021-10-30 17:16:13,182] INFO cvat.server.task_5: get repository request
+[2021-10-30 19:43:41,592] INFO cvat.server.task_5: get repository request

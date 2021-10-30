@@ -1,0 +1,157 @@
+// Copyright (C) 2020 Intel Corporation
+//
+// SPDX-License-Identifier: MIT
+
+@import '../../base.scss';
+
+.cvat-task-details-wrapper {
+    overflow-y: auto;
+    height: 90%;
+    width: 100%;
+
+    .cvat-task-details {
+        width: 100%;
+        height: auto;
+        border: 1px solid $border-color-1;
+        border-radius: 3px;
+        padding: 20px;
+        background: $background-color-1;
+
+        .cvat-task-details-user-block {
+            > div:nth-child(2) > span {
+                margin-right: 8px;
+            }
+        }
+
+        > div:nth-child(2) {
+            > div:nth-child(2) {
+                padding-left: 20px;
+
+                > div:not(:first-child) {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .cvat-project-search-field {
+            width: $grid-unit-size * 20;
+        }
+    }
+
+    > div > div > div > button {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.cvat-dataset-repository-url {
+    > a {
+        margin-right: 10px;
+    }
+
+    > .ant-tag-red {
+        user-select: none;
+        opacity: 0.4;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+    }
+
+    > .ant-tag > span[role='img'] {
+        margin-right: 5px;
+    }
+}
+
+.cvat-task-job-list {
+    width: 100%;
+    height: auto;
+    border: 1px solid $border-color-1;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px;
+    background: $background-color-1;
+
+    > div:nth-child(1) > div:nth-child(1) {
+        display: flex;
+    }
+}
+
+.cvat-task-top-bar {
+    margin: $grid-unit-size * 2 0;
+}
+
+.cvat-task-preview-wrapper {
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: $grid-unit-size * 32;
+    height: $grid-unit-size * 18;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $background-color-2;
+}
+
+.cvat-task-parameters {
+    margin-top: $grid-unit-size * 2;
+    width: $grid-unit-size * 32;
+}
+
+.cvat-open-bug-tracker-button {
+    margin-left: 15px;
+}
+
+.ant-typography.cvat-jobs-header {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Pagination in center */
+.cvat-task-jobs-table > div > div {
+    text-align: center;
+
+    > .ant-table-pagination.ant-pagination {
+        float: none;
+    }
+}
+
+.cvat-job-item-status {
+    .cvat-job-annotation-color,
+    .cvat-job-validation-color,
+    .cvat-job-completed-color {
+        span {
+            margin-left: $grid-unit-size;
+        }
+    }
+}
+
+.cvat-review-summary-description {
+    color: white;
+
+    .ant-typography {
+        color: white;
+    }
+
+    tr {
+        > td:nth-child(2) {
+            padding-left: $grid-unit-size;
+        }
+    }
+}
+
+.cvat-job-completed-color {
+    color: $completed-progress-color;
+}
+
+.cvat-job-validation-color {
+    color: $inprogress-progress-color;
+}
+
+.cvat-job-annotation-color {
+    color: $pending-progress-color;
+}

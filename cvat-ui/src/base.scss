@@ -1,0 +1,45 @@
+// Copyright (C) 2020 Intel Corporation
+//
+// SPDX-License-Identifier: MIT
+
+$grid-unit-size: 8px;
+
+$header-height: $grid-unit-size * 7;
+
+$layout-sm-grid-size: $grid-unit-size / 2;
+$layout-lg-grid-size: $grid-unit-size * 2;
+$layout-sm-grid-color: #1D1233;
+$layout-lg-grid-color: #1D1233;
+
+$header-color: #1D1233;
+$text-color: #1D1233;
+$text-color-secondary: rgba(0, 0, 0, 0.45);
+$hover-menu-color: #1D1233;
+$completed-progress-color: #61c200;
+$inprogress-progress-color: #1890ff;
+$pending-progress-color: #B7B6BB;
+$border-color-1: #E9EBE0;
+$border-color-2: rgb(240, 240, 240);
+$border-color-3: #1D1233;
+$border-color-hover: #1D1233;
+$background-color-1: white;
+$background-color-2: #f1f1f1;
+$transparent-color: #999EA3;
+$player-slider-color: #B7B6BB;
+$player-buttons-color: #1D1233;
+$danger-icon-color: #ff4136;
+$ok-icon-color: #61c200;
+$info-icon-color: #1D1233;
+$objects-bar-tabs-color: #B7B6BB;
+$objects-bar-icons-color: #1D1233; // #6e6e6e
+$active-label-background-color: #d8ecff;
+$object-item-border-color: #4C81AD;
+$slider-color: #1D1233;
+$pd-color: #999EA3;
+$pd-text-color: white;
+
+$box-shadow-base: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+$monospaced-fonts-stack: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+    Courier New, monospace;
